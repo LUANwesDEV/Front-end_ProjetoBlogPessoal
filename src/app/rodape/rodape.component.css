@@ -1,0 +1,29 @@
+ul.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li{ /*PARA MUDAR O ESPASAMENTO DOS ICONES E BOTAR UM DO LADO DO OUTRO*/
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa{    /*PARA MUDAR A COR DOS ICONES DA REDES SOCIAIS E O TAMANHO DOS ICONES*/ 
+    font-size: 35pt; 
+    color: white; 
+    padding: 10px;
+}
+
+.fa-facebook-square:hover {  /*QUANDO PASSAR O MOUSE EM CIMA DOS ICONES ELES MUDAM DE COR*/
+    color: #3b5998;
+}
+
+.fa-instagram:hover{
+    color: #C13584 ;
+}
+
+.fa-linkedin-square:hover{
+    color: #0072b1;
+
+}
