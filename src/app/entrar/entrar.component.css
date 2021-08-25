@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url("https://i.imgur.com/IqW2iE7.jpg"); /* IMAGEM DE FUNDO ENTRA*/
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
