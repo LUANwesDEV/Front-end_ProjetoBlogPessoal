@@ -5,10 +5,10 @@ import { EntrarComponent } from './entrar/entrar.component';
 
 const routes: Routes = [
 
-  {path:" ", redirectTo: "entrar", pathMatch: "full"},
+  {path:"", redirectTo: "entrar", pathMatch: "full"}, /*espaço vazio */
 
-  {path:"entrar", component:EntrarComponent},
-  {path:"cadastrar",component: CadastrarComponent}
+  {path:"entrar", component:EntrarComponent}, /* É o caminho do componente */
+  {path:"cadastrar",component: CadastrarComponent} /* */
 
 ];
 
