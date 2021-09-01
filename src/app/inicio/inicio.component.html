@@ -3,8 +3,8 @@
     <div class="row bg-info d-flex align-items-center"> <!-- deixa os intens da row alinhados no centro-->
         <div class="col-md-6">
 
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6 text-white ">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-md-6 text-white">
                     <h1  class="fs-54">Seja bem vindes!</h1>
                     <h5 class="fs-18">Sinta-se avonts para expressar aqui seus sentimentos e opiniões!</h5>
                 </div>
@@ -20,8 +20,8 @@
 
         </div>
 
-        <div class="col-md-6 d-flex justify-content-center" >
-            <img src="https://i.imgur.com/HVaHz5k.png" class="rounded" class="shadow-lg p-3 mb-5 bg-white rounded" alt="" width="500px" height="350px">
+        <div class="col-md-6 d-flex justify-content-center mb-5" >
+            <img src="https://i.imgur.com/HVaHz5k.png" class="mx-auto d-block" class="shadow-lg p-1 bg-white rounded" width="500px" height="350px">
             
         </div>
     </div>
@@ -83,7 +83,7 @@
         </div>
 
         <div class="form-group">
-            <label for="texto">Escolha um tema ou <a href="">cadastre um novo</a>: </label>
+            <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema' >cadastre um novo</a>: </label>
             <select class="form-control" name="tema" id="tema">
                 <option value="">Temas</option>
             </select>
@@ -92,7 +92,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-success">Publicar</button>
+        <button type="button" class="btn btn-outline-success">Publicar</button>
       </div>
     </div>
   </div>
