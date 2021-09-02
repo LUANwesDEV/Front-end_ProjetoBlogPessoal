@@ -35,7 +35,7 @@ export class CadastrarComponent implements OnInit {
   cadastrar() {
 
     if(this.user.nome.length<3){
-      alert('Preencher o nome com pelos menos 2 caracteres')
+      alert('Preencher o nome com pelo menos 2 caracteres')
     }
 
     if(this.user.usuario.indexOf('@') == -1 || this.user.usuario.indexOf('.') == -1){
